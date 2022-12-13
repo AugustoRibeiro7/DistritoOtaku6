@@ -1,0 +1,196 @@
+/* =========================GERAL=============================================*/
+
+*{
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    line-height: 1;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* =======================CABEÇALHO=============================================*/
+
+header {
+	background: black;
+	padding: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#cabeçalho {
+	width: 20%;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+#cabeçalho:hover,
+#cabeçalho:focus {
+	border: 1px outset white;
+}
+
+#logo{
+	width: 100%;
+}
+
+form {
+	width: 700px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+
+#pesquisar {
+	width: 530px;
+	height: 50px;
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.849);
+	border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+	border: 0;
+}
+
+#botao-pesquisar {
+	height: 35px;
+	font-size: 16px;
+	width: 35px;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	border: 0;
+}
+
+#botao-fundo {
+	background-color: white;
+	height: 50px;
+	border: 0;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: 0.4s background;
+}
+
+#botao-fundo:hover,
+#botao-fundo:focus {
+	background: rgb(174, 173, 173);
+}
+
+#botao-fundo:active {
+	border: 3px inset gray;
+}
+
+#login {
+	height: 70px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+#login:hover,
+#login:focus {
+	border: 1px outset white;
+}
+
+#imagem-login {
+	height: 100%;
+}
+
+#text-login {
+	color: white;
+}
+
+
+/* ====================CONTEÚDO PRINCIPAL=========================================*/
+
+main {
+    background-image: url(img/fundo2.png), url(img/fundo1.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 100% 0%, 0% 0%;
+	background-size: 13% 100%, 13% 100%;
+	background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 44%;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+#titulo-cabeçalho {
+    margin: 0;
+}
+
+#titulo-central {
+    text-align: center;
+    font-size: 31px;
+	margin-top: 0;
+	padding: 1%;
+}
+
+#titulo-trailer {
+    font-size: 25px;
+}
+
+#trailer {
+    text-align: center;
+	box-shadow: 5px 5px 5px;
+}
+
+
+#elenco {
+    font-size: 25px;
+}
+
+#lista {
+    font-size: 18px;
+    color: grey;
+	line-height: 1cm;
+    list-style-type: disc;
+    margin-left: 3%;
+}
+
+li u {
+    color: black ;
+}
+
+/* =======================RODAPÉ========================================== */
+
+#footer {
+	display: flex;
+	justify-content: flex-end;
+	background: dimgrey;
+	padding: 3%;
+	width: 94%;
+	align-items: center;
+}
+
+#texto-final {
+	color: white;
+	height: 18px;
+	margin-right: 50%;
+	padding-right: 250px;
+}
+
+.icon {
+	width: 80px;
+	height: 80px;
+	transition: transform 0.6s;
+	transform: translateX(0) scale(1);
+}
+
+.icon:hover,
+.icon:focus{
+	transform: translateX(10px) scale(1.4);
+}
